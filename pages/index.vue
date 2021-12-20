@@ -1,9 +1,13 @@
-<template>
-  <Tutorial/>
-</template>
-
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>
+  <template>
+      <div id="app">
+        <nav-bar/>
+      </div>
+    </template>
+    <script>
+    import NavBar from "~/components/NavBar.vue";
+    export default {
+      components: {
+        NavBar
+      }
+    };
+    </script>
